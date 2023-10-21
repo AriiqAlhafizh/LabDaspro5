@@ -139,14 +139,16 @@ case kodefakultas of
     end;
 end;
 
-if (nomorurutint mod 3 = 1) then kelas:= 'A';
-if (nomorurutint mod 3 = 2) then kelas:= 'B';
-if (nomorurutint mod 3 = 0) then kelas:= 'C';
+if (nomorurutint mod 3 = 1) then begin kelas:= 'A';
+end else if (nomorurutint mod 3 = 2) then begin kelas:= 'B';
+end else if (nomorurutint mod 3 = 0) then begin kelas:= 'C';
+end;
 
 
-if (nomorurutint<=30) then jalur:='SNBP';
-if (nomorurutint<=70) then jalur:='SNBT';
-if (nomorurutint>70) then jalur:='SMM';
+if (nomorurutint<=30) then begin jalur:='SNBP';
+end else if (nomorurutint<=70) then begin jalur:='SNBT';
+end else if (nomorurutint>70) then begin jalur:='SMM';
+end;
 
  writeln;
  writeln('nama : ',nama);
