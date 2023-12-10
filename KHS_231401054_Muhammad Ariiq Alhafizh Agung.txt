@@ -1,0 +1,21 @@
+Kartu Hasil Studi
+=================
+
+Nama :Muhammad Ariiq Alhafizh Agung
+NIM  :231401054
+
+|============================================|
+|No.|Matkul                           |nilai |
+|============================================|
+|1. |Dasar Pemrograman                |B     |
+|2. |Praktikum Dasar Pemrograman      |C     |
+|3. |Organisasi Arsitektur Komputer   |B+    |
+|4. |Pengantar Ilmu Komputer          |B     |
+|5. |Logika Matematika                |C+    |
+|6. |Matematika Dasar                 |A     |
+|7. |Pendidikan Pancasila             |D     |
+|8. |Bahasa Indonesia                 |C     |
+|============================================|
+
+Total SKS     :19
+IP Semester   :2.79
